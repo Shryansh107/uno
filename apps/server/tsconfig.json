@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "../..",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "paths": {
+      "@uno/shared": ["../../packages/shared/src"]
+    },
+    "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["src/**/*", "../../packages/shared/src/**/*"]
+}

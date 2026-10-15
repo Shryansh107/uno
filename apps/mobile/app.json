@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "UNO Multiplayer",
+    "slug": "uno-multiplayer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "uno",
+    "splash": {
+      "backgroundColor": "#0d0d1a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.uno.multiplayer"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0d0d1a"
+      },
+      "package": "com.uno.multiplayer"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "tsconfigPaths": true,
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}
